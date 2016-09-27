@@ -1,0 +1,7 @@
+1.1 The most predictive features in order: Gender, Passanger class, Age. The rule of survival could be found by tracing the splits fo dataset with most survival cases from root node to leaves.
+
+1.2 In our model we found that female passangers, whose passanger class is smaller than 3, and whose age is larger than 2 years, have estimated 95% probability of survival. Similarily we found that male passangers from the 2 class and larger of passangers who are older than 13 years and who payed less than 7.76 fare have only 13% chance of survival.
+
+1.3 SibSp is useful In our model for predictions for male children from the 2 class and larger of passangers. The least usefull feature is the one that is used least of all; This is Parch.
+
+1.4 There is a lot of overfitting going on in trees without pruning.
